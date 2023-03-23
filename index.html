@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    
     <title>AJAX DEMO</title>
   </head>
   <body>
     <h3>Enter a name</h3>
 
     <input type="text" name="" id="input-field" />
-    <button id="search" onclick="search()">Search</button>
-    <table id="info"></table>
+    <!-- <button id="search" onclick="search()">Search</button> -->
+    <button id="search">Search</button>
+    <p id="demo"></p>
+    <div class="container">
+      <p id="id"></p>
+      <p id="firstname"></p>
+      <p id="lastname"></p>
+      <p id="address"></p>
+      <p id="phone"></p>
 
-    <script src="./index.js"></script>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  </script>
+
+    <script src="./jq.js"></script>
   </body>
 </html>
