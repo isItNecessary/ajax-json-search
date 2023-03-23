@@ -32,3 +32,9 @@ search = () => {
   }
   document.getElementById("info").innerHTML = "No results found.";
 };
+
+// jquery here we go//
+
+
+
+
